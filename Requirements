@@ -1,0 +1,34 @@
+Version 1:
+
+- Able to display and items [x]
+- Able to add items [x]
+- Able to remove items [x]
+- Able to edit items [x]
+- Able to change 'Required' boolean value [x]
+
+Version 2:
+
+- Includes text box [x]
+- Includes button that adds value to console [x]
+- Value passed into textbox should display on list [x]
+- Value displayed should be seperated into 'need to buy' or 'already have' lists [x]
+
+Version 3
+
+- Include button next to each item that removes said item from list [x]
+- Include function to edit item from list [x]
+
+Version 4
+
+- Include checkbox for each item [x]
+- Checkbox should be inline with its list item []
+- Readd button to delete list items [x]
+- Button should be in the form of a trash icon [x] (will need to remove button overlay)
+- Add item underneath textbox should be a circular plus button [x]
+- Checkbox should not untick when an item is deleted []
+  (currently entire list is refreshed when item is deleted)
+
+Version 5
+
+- Clean up code []
+- Reduce the amount of code in the js page. This may include having functions that apply to both lists []

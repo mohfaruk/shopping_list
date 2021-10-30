@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/5fbea5a863.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Shopping List</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Shopping List</h1>
+      <!-- Textbox -->
+      <div class="form-wrap">
+        <label><strong>Add Item: </strong></label>
+        <div class="text-area">
+          <input type="text" name="item-name" id="textbox" />
+          <button class="input-btn" id="need-btn">+</button>
+        </div>
+      </div>
+      <!-- Lists -->
+      <div class="list-area">
+        <h2 class="list-header">Need to Buy</h2>
+        <ul id="need-list"></ul>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="app.js"></script>
+  <!-- Putting after <body> rather than before, loads up Javascript after the DOM is completely loaded. -->
+</html>

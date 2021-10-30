@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #344a72;
+  font-family: "Indie Flower", cursive;
+  line-height: 1.5;
+}
+
+/* Utilities */
+.container {
+  /* Max width allows you to control size of div */
+  /* Look into baking border radius look like scrap paper */
+  background-image: url('images/linedpaper.png');
+  margin: 60px auto;
+  max-width: 600px;
+  padding: 30px 100px;
+}
+
+h1, h2 {
+  color: #555555;
+}
+
+h1 {
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 42px;
+  letter-spacing: -2px;
+  text-align: left;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.form-wrap {
+  margin: 5% 0;
+}
+
+.form-wrap label {
+  display: block;
+  font-size: 20px;
+}
+
+.form-wrap input {
+  width: 60%;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Checkbox */
+.checkbox {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin: 0 10px 0 100px;
+  cursor: pointer;
+
+}
+
+
+/* Buttons */
+.input-btn {
+  background-color: #BC544B;
+  color: #fff;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  border: none;
+  font-size: 30px;
+  margin-left: 5%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.input-btn:hover {
+  background-color: #cf5d52;
+}
+
+.fa {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: inline;
+}
+
+.fa:hover {
+  color: #413333;
+}
+
+/* List Items */
+.list-item {
+  margin-top: 15px;
+}
